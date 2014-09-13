@@ -16,9 +16,11 @@ XXX
 
 ## More to be announced
 
+XXX
 
 ## Credits
 
+XXX
 
 ## Copyright & License
 
