@@ -1,26 +1,8 @@
-# Ghostology
+# Casper
 
-A theme for [Ghost](https://ghost.org/).
+The default theme for [Ghost](http://github.com/tryghost/ghost/).
 
-To download, visit the [GitHub Project](https://github.com/teqnology/Ghostology) page.
-
-##  Features
-
-XXX
-
-## Installation
-
-1. [Download the theme](https://github.com/teqnology/Ghostology/archive/master.zip) from GitHub.
-2. Upload the theme as described in the [Ghost Documentation](http://docs.ghost.org/usage/settings/).
-3. Enjoy!
-
-## More to be announced
-
-XXX
-
-## Credits
-
-XXX
+To download, visit the [releases](https://github.com/TryGhost/Casper/releases) page.
 
 ## Copyright & License
 

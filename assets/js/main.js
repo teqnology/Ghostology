@@ -9,7 +9,7 @@ $(document).ready(function(){
 		
 		var sectionH = 	$section.height();
 		var contentH =	$content.height();
-		var padding =	(sectionH - contentH) / 2 - 10;
+		var padding =	(sectionH - contentH) / 2 - 100;
 		
 		$content.css({
 			'padding-top' : padding
@@ -20,8 +20,6 @@ $(document).ready(function(){
 	$('section').each(function(){
 		centerContent($(this));
 	});
-	
-	
 	
 	/*/ --- SCROLL TO --- /*/
 	$('.down').click(function(){
@@ -36,12 +34,10 @@ $(document).ready(function(){
 		$.scrollTo(destination, 800, {easing: 'easeInOutExpo'});
 	});
 	
-	
 	/*/ --- LIFEAWESO.ME --- /*/
 	$('.lifeawesome').each(function(){
 		$(this).text('lifeaweso.me');
 	});
-	
 	
 	/*/ --- LINK FOR TWITTER --- /*/
 	$.fn.tweetify = function() {
@@ -57,17 +53,10 @@ $(document).ready(function(){
 	};
 	$("#twitter-feed").tweetify();
 	
-	
-	
-	
-	
-	
 	$(window).resize(function(){
 		$('section').each(function(){
 			centerContent($(this));
 		});
 	});
-	
-	
-	
+
 });
