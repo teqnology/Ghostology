@@ -1,12 +1,12 @@
-# Casper
+# Ghostology
 
-The default theme for [Ghost](http://github.com/tryghost/ghost/).
+The new material-driven theme for [Ghost](https://github.com/tryghost/ghost).
 
-To download, visit the [releases](https://github.com/TryGhost/Casper/releases) page.
+To view an example visit [lifeaweso.me](http://lifeaweso.me).
 
 ## Copyright & License
 
-Copyright (c) 2013-2014 Ghost Foundation - Released under the MIT License.
+Copyright (c) 2014 lifeaweso.me - Released under the MIT License.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
