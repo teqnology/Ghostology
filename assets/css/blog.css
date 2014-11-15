@@ -177,6 +177,10 @@ a.link, a.link:hover{
 }
 .post-footer{
 }
+h3{
+	font-weight: 200;
+}
+
 /* ==========================================================================
    3. Utilities - These things get used a lot
    ========================================================================== */
@@ -508,11 +512,21 @@ body:not(.post-template) .post-title {
 }
 
 .author-thumb {
-    width: 24px;
-    height: 24px;
-    float: left;
-    margin-right: 9px;
-    border-radius: 100%;
+	display: block;
+	width: 12.5%;
+	vertical-align: top;
+	margin: 0 auto;
+	-webkit-border-radius:60px;
+	-moz-border-radius:60px;
+	border-radius:60px;
+	margin-top:-150px;
+}
+.author-info{
+	display: inline-block;
+	width: 60%;
+	vertical-align: top;
+	margin-left: 1rem;
+	padding: 2rem;
 }
 
 .post-meta a {
@@ -581,10 +595,10 @@ body:not(.post-template) .post-title {
 	font-weight: 200;
 	background: #FFF;
 	color: #AAA;
-	padding: 30px;	
-	margin-bottom: 30px;
+	padding: 6rem 0 0;	
+	margin-bottom: 2rem;
+	text-align: center;
 	box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
-	
 	-webkit-transition: all 100ms linear;
 	-moz-transition: all 100ms linear;
 	-ms-transition: all 100ms linear;
@@ -593,15 +607,35 @@ body:not(.post-template) .post-title {
 .box:hover{
 	box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
 }
+section{
+	width: 100%;
+	min-height: 100%;
+	padding: 5rem 0;
+	position: relative;
+}
 
 /* ==========================================================================
    5. Single Post - When you click on an individual post
    ========================================================================== */
 
+input{
+	display: inline-block;
+	margin: 0 5px;
+	border: none;
+	border: 1px solid #DDD;
+	padding: 10px;
+	font-size: 16px;
+	font-family: 'Raleway', sans-serif;
+}
+section.share i{
+	font-size: 3rem;
+}
 /* ==========================================================================
    6. Author profile
    ========================================================================== */
-
+.author-header{
+	padding: 2rem;
+}
 /* ==========================================================================
    7. Third Party Elements - Embeds from other services
    ========================================================================== */

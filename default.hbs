@@ -17,6 +17,7 @@
     {{! Style collection }}
     <link rel='stylesheet' type='text/css' href="http://fonts.googleapis.com/css?family=Raleway:200,600" />
     <link rel='stylesheet' type='text/css' href="{{asset "css/foundation.min.css"}}" />
+    <link rel='stylesheet' type='text/css' href="{{asset "css/foundation-icons.css"}}" />
     <link rel='stylesheet' type='text/css' href="{{asset "css/reset.min.css"}}" />
     <link rel='stylesheet' type='text/css' href="{{asset "css/style.css"}}" />
     <link rel="stylesheet" type="text/css" href="{{asset "css/blog.css"}}" />
@@ -32,11 +33,11 @@
         <div class="link">
             <nav>
                 <ul>
-                    <li data-destination="#what">blog</li>
+                    <li><a class="link" href="{{@blog.url}}" title="Life Awesome Blog homepage">blog</a></li>
                     <li><a class="link" href="https://twitter.com/lifeaweso_me" title="Follow Life Awesome on Twitter" target="_blank">@lifeaweso_me</a></li>
                     <li><a class="link" href="https://twitter.com/_danielep_" title="Follow Daniele Petrarolo on Twitter" target="_blank">@_danielep_</a></li>
                     <li><a class="link" href="https://twitter.com/Trip314" title="follow Alen Subat on Twitter" target="_blank">@trip314</a></li>
-                    <li><a class="link" href="{{@blog.url}}/rss/">subscribe</a></li>
+                    <li><a class="link" href="{{@blog.url}}/rss/"><i class="fi-rss"></i> rss</a></li>
                 </ul>
             </nav>
         </div>
@@ -44,6 +45,9 @@
 
     {{! Everything else gets inserted here }}
     {{{body}}}
+
+    {{! Footer partial }}
+    {{> footer}}
 
     {{! Ghost outputs important scripts and data with this tag }}
     {{ghost_foot}}
@@ -53,7 +57,6 @@
     <script type="text/javascript" src="{{asset "js/jquery.fitvids.js"}}"></script>
     <script type="text/javascript" src="{{asset "js/libs/jquery.easing.min.js"}}"></script>
     <script type="text/javascript" src="{{asset "js/libs/jquery.scrollTo.min.js"}}"></script>
-    <script type="text/javascript" src="{{asset "js/libs/newsletter.js"}}"></script>
     <script type="text/javascript" src="{{asset "js/main.js"}}"></script>
 
 </body>

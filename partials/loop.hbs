@@ -7,7 +7,7 @@
             <header><h2 class="title"><a class="link" href="{{url}}">{{{title}}}</a></h2></header>
 
             <section class="post-excerpt">
-                <p>{{excerpt words="26"}} <a class="read-more link" href="{{url}}">&raquo;</a></p>
+                <p>{{excerpt words="100"}} <a class="read-more link" href="{{url}}">&raquo;</a></p>
             </section>
 
             {{! Everything inside the #author tags pulls data from the author }}
@@ -17,8 +17,17 @@
                 {{#if image}}
                     <img class="author-thumb" src="{{image}}" alt="Author image" nopin="nopin" />
                 {{/if}}
-                <a class="link" href="{{url}}">{{name}}</a>
-                <time datetime="{{date format='YYYY-MM-DD'}}"> published this article on {{date format="DD MMMM YYYY"}}</time>
+
+                <div class="author-info">
+   
+                    published by <a class="link" href="{{url}}">{{name}}</a>
+                    
+                    <br> 
+
+                    <time datetime="{{date format='YYYY-MM-DD'}}">on {{date format="MMMM DD, YYYY"}}</time>
+      
+                </div>
+ 
             </footer>
     
             {{/author}}
