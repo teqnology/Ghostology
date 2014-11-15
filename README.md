@@ -2,7 +2,7 @@
 
 The new material-driven theme for [Ghost](http://github.com/tryghost/ghost/).
 
-To view an example visit [lifeaweso.me](http://lifeaweso.me) and [blog.lifeweso.me](http://blog.lifeweso.me).
+To view an example visit [lifeaweso.me](http://lifeaweso.me) and [blog.lifeaweso.me](http://blog.lifeaweso.me).
 
 ## Copyright & License
 
