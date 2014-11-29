@@ -46,7 +46,7 @@ body {
 a { background: transparent; }
 a:focus { outline: thin dotted; }
 a:active, a:hover { outline: 0; }
-h1 { font-size: 2em; margin: 0.67em 0; }
+h1 { font-size: 2em; margin: 0.67em 0; margin: 1em; }
 abbr[title] { border-bottom: 1px dotted; }
 b, strong { font-weight: 700; }
 dfn { font-style: italic; }
@@ -55,6 +55,10 @@ hr {
    box-sizing: content-box;
    height: 0;
    margin: 3rem;
+   background: #00bcd4;
+   border: none !important;
+   color: #00bcd4;
+   height: 2px;
 }
 mark { background: #FF0; color: #000; }
 code, kbd, pre,
@@ -179,6 +183,10 @@ blockquote {
 	#intro .container h2{
 		font-size: 14px;
 	}
+}
+h2.title{
+    margin-top: 60px !important;
+    margin-bottom: 15px !important;
 }
 a, a:hover{
 	color: #fff;
@@ -529,6 +537,10 @@ body:not(.post-template) .post-title {
     margin: 0;
     font-size: 1.6rem;
     line-height: 1.7em;
+}
+
+.post-excerpt p, .post-content p{
+     font-size: 1.2rem
 }
 
 .read-more {
