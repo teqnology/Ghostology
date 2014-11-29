@@ -107,24 +107,31 @@ table { border-collapse: collapse; border-spacing: 0; }
    ========================================================================== */
 
 #intro .down{
-	width: 80px;
-	height: 80px;
-	background: url('../images/down.png') 0 0 no-repeat;
-	position: absolute;
-	bottom: 0;
-	left: 50%;
-	margin-left: -40px;
-	cursor: pointer;
-	
-	-webkit-transition: all 200ms ease;
-	-moz-transition: all 200ms ease;
-	-ms-transition: all 200ms ease;
-	transition: all 200ms ease;
+    width: 80px;
+    height: 80px;
+    background: url('../images/down.png') 0 0 no-repeat;
+    position: absolute;
+    bottom: -60px;
+    left: 50%;
+    margin-left: -40px;
+    cursor: pointer;
+    -webkit-transition: all 400ms ease;
+    -moz-transition: all 400ms ease;
+    -ms-transition: all 400ms ease;
+    transition: all 400ms ease;
 }
 #intro .down:hover{
 	background: url('../images/down.png') 0 10px no-repeat
 }
 
+#intro .container.visible{
+    opacity: 1;
+    margin-top: -200px;
+}
+
+#intro .down.visible{
+    bottom: 0;
+}
 /* ==========================================================================
    2. General - Setting up some base styles
    ========================================================================== */
@@ -168,12 +175,18 @@ a.link, a.link:hover{
 	color: #00bcd4;
 }
 #intro .container{
-	width: 320px;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	margin-top: -200px;
-	margin-left: -160px;
+    width: 320px;
+    position: absolute;
+    padding: 0;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -160px;
+    opacity: 0;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    transition: all 500ms ease;
 }
 .post-footer{
 }

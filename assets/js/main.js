@@ -60,3 +60,11 @@ $(document).ready(function(){
 	});
 
 });
+
+$(window).load(function(){
+	
+	/*/ --- INTRO --- /*/
+	setTimeout(function(){$('#intro .container').addClass('visible');}, 300);
+	setTimeout(function(){$('#intro .down').addClass('visible');}, 800);
+
+});
